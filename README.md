@@ -44,10 +44,10 @@ We implemented a U-Net model, a well-known CNN-based architecture for biomedical
 
 ## **Training Process **  
 The model was trained using TensorFlow/Keras with the following setup:  
-✅ Loss Function → Binary Cross-Entropy + Dice Loss  
+✅ Loss Function → Dice Loss  
 ✅ Optimizer → Adam optimizer for efficient learning  
 ✅ Learning Rate Scheduling → Reduces learning rate on plateaus  
-✅ Evaluation Metrics → Dice Coefficient, IoU, Accuracy  
+✅ Evaluation Metrics → Dice Coefficient, IoU, Accuracy   
 
 
 ### Examples of CT Segmentation
