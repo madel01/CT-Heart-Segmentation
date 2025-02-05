@@ -35,10 +35,10 @@ To improve the model's generalization and performance, we applied **data augment
 We implemented a U-Net model, a well-known CNN-based architecture for biomedical image segmentation. U-Net is effective in capturing both local and global spatial information using its encoder-decoder structure with skip connections.  
 
 ### **U-Net Architecture Highlights:**
-🔹 Encoder (Contracting Path) → Captures spatial features using convolutional layers
-🔹 Bottleneck → Connects the encoder and decoder with high-level feature maps
-🔹 Decoder (Expanding Path) → Recovers spatial resolution for precise segmentation
-🔹 Skip Connections → Retains fine-grained details by merging encoder features
+🔹 **Encoder** (Contracting Path) → Captures spatial features using convolutional layers
+🔹 **Bottleneck** → Connects the encoder and decoder with high-level feature maps
+🔹 **Decoder** (Expanding Path) → Recovers spatial resolution for precise segmentation
+🔹 **Skip Connections** → Retains fine-grained details by merging encoder features
 
 ---
 
