@@ -43,7 +43,7 @@ We implemented a U-Net model, a well-known CNN-based architecture for biomedical
 ---
 
 ## **Training Process **  
-The model was trained using TensorFlow/Keras with the following setup:
+The model was trained using TensorFlow/Keras with the following setup:  
 ✅ Loss Function → Binary Cross-Entropy + Dice Loss  
 ✅ Optimizer → Adam optimizer for efficient learning  
 ✅ Learning Rate Scheduling → Reduces learning rate on plateaus  
@@ -53,6 +53,8 @@ The model was trained using TensorFlow/Keras with the following setup:
 ### Examples of CT Segmentation
 Below are results of Unet segmentation:
 
+the image from validation set is structred as [Image - True mask - Predicted mask] 
 ![Heart Segmentation Visualization](results/CT1.png)
 
+the image from test set is structred as [Image - Predicted mask] 
 ![Heart Segmentation Visualization](results/CT7.png)
