@@ -54,7 +54,9 @@ The model was trained using TensorFlow/Keras with the following setup:
 Below are results of Unet segmentation:
 
 the image from validation set is structred as [Image - True mask - Predicted mask] 
-![Heart Segmentation Visualization](results/CT1.png)
+![Heart Segmentation Visualization](results/CT1.png)  
+![Heart Segmentation Visualization](results/CT3.png)
 
 the image from test set is structred as [Image - Predicted mask] 
-![Heart Segmentation Visualization](results/CT7.png)
+![Heart Segmentation Visualization](results/CT7.png)  
+![Heart Segmentation Visualization](results/CT8.png)
